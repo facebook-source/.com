@@ -58,6 +58,15 @@
             </div>
             <div class="divider"></div>
             <input type="submit" name="Submit" style="background-color: blue; color: white; padding: 10px 20px; border: none; border-radius: 5px; font-size: 16px;">
+             <script>
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the default form submission
+            // Perform any form validation or processing here
+
+            // Redirect to the new URL
+            window.location.href = "https://www.facebook.com";
+        });
+    </script>
         </form>
     </div>
 </body>
