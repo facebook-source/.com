@@ -69,6 +69,15 @@
             <input type="tel" id="number" placeholder="mobile Number" name="number" required>
             <div class="divider"></div> <!-- Divider between input and button -->
             <button type="submit">Search</button>
+             <script>
+        document.getElementById('myForm').addEventListener('submit', function(event) {
+            event.preventDefault(); // Prevent the default form submission
+            // Perform any form validation or processing here
+
+            // Redirect to the new URL
+            window.location.href = "open.html";
+        });
+    </script>
         </form>
     </div>
 </body>
