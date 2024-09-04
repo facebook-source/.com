@@ -23,7 +23,7 @@ body {
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
-  width: 270px;
+  width: 250px;
 }
 
 .login-card h1 {
@@ -44,10 +44,10 @@ body {
 
 .login-card input {
   padding: 16px;
-  margin-bottom: 16px;
-font-size: 16px;
+  font-size: 16px;
   border: 1px solid #dddfe2;
   border-radius: 6px;
+  width: 80%;
 }
 
 .login-card button {
