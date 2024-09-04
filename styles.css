@@ -23,12 +23,12 @@ body {
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: center;
-  width: 220px;
+  width: 300px;
 }
 
 .login-card h1 {
   color: #1877f2;
-  font-size: 70px;
+  font-size: 80px;
   margin-bottom: 25px;
 }
 
@@ -47,7 +47,7 @@ body {
   font-size: 16px;
   border: 1px solid #dddfe2;
   border-radius: 6px;
-  width: 80%;
+  width: 90%;
 }
 
 .login-card button {
